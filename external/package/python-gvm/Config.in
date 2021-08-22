@@ -1,0 +1,5 @@
+config BR2_PACKAGE_GREENBONE_PYTHON_GVM
+    bool "python-gvm"
+    depends on BR2_PACKAGE_PYTHON || BR2_PACKAGE_PYTHON3
+    help
+      python-gvm package

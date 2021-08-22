@@ -1,0 +1,5 @@
+config BR2_PACKAGE_GREENBONE_OSPD_OPENVAS
+    bool "ospd-openvas"
+    depends on BR2_PACKAGE_PYTHON || BR2_PACKAGE_PYTHON3
+    help
+      ospd-openvas package

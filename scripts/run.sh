@@ -26,10 +26,12 @@ set -e
 
 OUTPUT_DIR=/buildroot_output
 BUILDROOT_DIR=/root/buildroot
+BR2_EXTERNAL=/root/buildroot/external
 
 DOCKER_RUN="docker run
     --rm
     -ti
+    --env BR2_EXTERNAL=$BR2_EXTERNAL
     --volumes-from buildroot_output
     -v $(pwd)/data:$BUILDROOT_DIR/data
     -v $(pwd)/external:$BUILDROOT_DIR/external
