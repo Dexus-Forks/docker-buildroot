@@ -1,3 +1,8 @@
+#source "$BR2_EXTERNAL_Greenbone_Tools_PATH/package/gvm-libs/Config.in"
+#source "$BR2_EXTERNAL_Greenbone_Tools_PATH/package/gvmd/Config.in"
+#source "$BR2_EXTERNAL_Greenbone_Tools_PATH/package/openvas-smb/Config.in"
+#source "$BR2_EXTERNAL_Greenbone_Tools_PATH/package/openvas-scanner/Config.in"
+#source "$BR2_EXTERNAL_Greenbone_Tools_PATH/package/gsa/Config.in"
 source "$BR2_EXTERNAL_Greenbone_Tools_PATH/package/python-gvm/Config.in"
 source "$BR2_EXTERNAL_Greenbone_Tools_PATH/package/gvm-tools/Config.in"
 source "$BR2_EXTERNAL_Greenbone_Tools_PATH/package/ospd/Config.in"
